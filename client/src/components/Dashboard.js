@@ -5,6 +5,7 @@ import superagent from 'superagent'
 import CitySearch from './CitySearch'
 import CatSearch from './CatSearch';
 import { ButtonToolbar } from 'react-bootstrap';
+const db = require('dotenv');
 
 class MapContainer extends Component {
   constructor() {
