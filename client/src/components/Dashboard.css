@@ -1,0 +1,27 @@
+.app {
+  width: 60%;
+  float: left;
+  margin: 0 0 0 10px;
+}
+
+.mapContainer {
+  width: 65%;
+  float: left;
+  margin: 0 0 0 40px;
+}
+
+.mapDisplay {
+  max-width: 2000px;
+  height: 600px;
+  background-color: red;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 1000px) {
+  .mapContainer {
+  width: 90%;
+  float: none;
+  margin: 0 auto;
+}
+
+}

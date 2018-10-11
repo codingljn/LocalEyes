@@ -1,0 +1,50 @@
+
+
+.backGround  {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -100;
+}
+
+.world {
+  max-width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.hero {
+    /* background: black; */
+    color: #fff;
+    width: 100%;
+    padding: 100px;
+    left: 10%;
+  }
+  
+  .hero h1 {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(0, 4, 255);
+  }
+  
+  .hero button {
+    background: rgb(28, 91, 186);
+    color: #eee;
+    padding: 10px 45px;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  form {
+    position: fixed;
+    opacity: 0.9;
+    top: 50%;
+    left: 40%;
+  }

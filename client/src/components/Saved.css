@@ -1,0 +1,36 @@
+.tripButton {
+    display: inline-block;
+    margin: 55px 20px 10px 20px;
+    padding: 9px;
+    font-size: 30px;
+    background: rgb(101, 134, 206);
+    border: solid black 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categoryTitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(189, 189, 189);
+    color: white;
+    width: 100%;
+    margin-left: -20px;
+    padding: 10px;
+}
+
+.venueName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+.deleteButton:hover {
+    background-color: crimson;
+}
