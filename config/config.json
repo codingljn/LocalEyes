@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "sur@baya123",
+    "password": "password",
     "database": "localeyes1_db",
     "host": "localhost",
     "dialect": "mysql",
