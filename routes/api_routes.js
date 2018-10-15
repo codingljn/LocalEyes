@@ -26,7 +26,7 @@ module.exports = function (app) {
             tripName: body.tripName,
             address: body.address,
             city: body.city,
-            userId: req.params.user.id
+//             userId: req.params.user.id
         }).then(function (dbsavedVenues) {
             res.json(dbsavedVenues);
         });
